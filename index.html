@@ -1,12 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>JS Page</title>
-        <script src="js/script.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Login</title>
+        <link rel="stylesheet" href="login-page.css">
+        <script defer src="login-page.js"></script>
     </head>
 
     <body>
-        <button type="button" onclick="revealMessage()">Click Here</button>
-        <p id="hiddenMessage" style="display:none">You are going on a cruise</p>
+        <main id="main-holder">
+            <h1 id="login-holder">Log In</h1>
+
+            <div id="login-error-msg-holder">
+                <p></p>
+            </div>
+        </main>
     </body>
 </html>
